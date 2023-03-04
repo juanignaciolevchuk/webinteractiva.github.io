@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Mark Hopkins</title>
+</head>
+<body>
+    <section title="titulo1">
+        <H1>Mark Hopkins</H1>
+    </section>
+    
+    <div class="navegador">
+        <div class="navArea">
+            <ul>
+                <li>
+                    <a href="index.html" onmouseenter="changeImage('imageley.jpg')">Curriculum Vitae</a>
+                </li>
+                <li>
+                    <a href="index.html" onmouseenter="changeImage('imageley2.jpg')">Servicios</a>
+                </li>
+                <li>
+                    <a href="index.html" onmouseenter="changeImage('imageley3.jpg')">Contacto</a>
+                </li>
+            </ul>
+        </div>
+        <div class="imgArea">
+            <img src="imageley.jpg" id="slider"> 
+        
+        </div>
+    
+    </div>
+    <script>
+        function changeImage(anything){
+            document.getElementById('slider').src = anything
+        }
+    </script>
+</body>
+</html>

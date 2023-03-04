@@ -1,0 +1,429 @@
+@import url('https://fonts.googleapis.com/css2?family=Calistoga&family=Roboto:wght@700&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Calistoga', cursive;
+
+}
+
+body
+{
+   
+    background: rgb(39,97,226);
+    background: radial-gradient(circle, rgba(39,97,226,1) 2%, rgba(64,109,205,1) 16%, rgba(59,161,220,1) 52%, rgba(57,187,227,1) 76%, rgba(81,134,228,1) 100%, rgba(125,173,230,1) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+}
+
+.container
+{
+    position: relative;
+    width: 100%;
+    max-width: 900px;
+    min-height: 900px;
+    background: #fff;
+    margin: 50px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 45px 55px 45px rgba(0,0,0,0.1)
+}
+
+.container .left_Side
+{
+    position: relative;
+    background: linear-gradient(90deg, #4b6cb7 0%, #182848 100%);
+    padding: 40px;
+
+}
+
+.profileText
+{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+}
+
+.profileText .image
+{
+position: relative;
+width: 200px;
+height: 200px;
+border-radius: 50%;
+overflow: hidden;
+}
+
+.profileText .image img
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+
+}
+
+.profileText h2
+{
+    color: #fff;
+    font-size: 1.5em;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 300;
+    line-height: 1.2em;
+}
+
+.profileText h2 span
+{
+font-size: 0.7em;
+font-weight: 200;
+}
+
+.contactInfo
+{
+   
+    padding-top: 30px;
+}
+
+.title
+{
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+.contactInfo ul
+{position: relative;}
+
+
+.contactInfo ul li
+{
+position: relative;
+list-style: none;
+margin: 10px 0;
+cursor: pointer;
+}
+
+.contactInfo ul li .icon
+{
+    display: inline-block;
+    width: 30px;
+    font-size: 18px;
+    color: rgba(131, 156, 231, 0.61);
+
+}
+
+.contactInfo ul li .text
+{
+    color: #fff;
+    width: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.contactInfo2 h3
+
+{
+   color: #fff;
+    margin-top: 20px;
+    font-weight: 100;
+}
+.contactInfo2 li
+{
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+
+.contactInfo2 h5
+{
+    
+    color: #07183c;
+    font-weight: 500;
+    
+}
+
+.contactInfo2 h4:nth-child(2)
+{
+    color: #fff;
+    font-weight: 100;
+    font-size: 13px;
+}
+
+.contactInfo2 h4
+{
+    color: #fff;
+    text-transform: uppercase;
+    margin-bottom: 2px;
+    margin-top: 1px;
+    font-weight: 20;
+
+}
+
+
+.container .right_Side
+{
+    color: rgb(0, 0, 0);
+    position: relative;
+    padding: 40px;
+}
+
+.about
+{
+    margin: bottom 40px;
+}
+
+.about:last-child
+{
+    margin-bottom: 0;
+}
+
+.title2
+{
+    color: #234286;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+p
+{
+    color: #07183c;
+    font-size: 15px;
+}
+
+.title3
+{
+    color: #234286;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.about .text
+{
+    font-size: 18px;
+    color: #07183c;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    
+}
+.about h5
+{
+    color: #07183c;
+    font-size: 15px;
+    margin-top: 5px;
+}
+
+h6
+{
+    color: #07183c;
+    margin-top: 5px;
+    font-size: 15x;
+}
+
+.aboutSkills .box 
+{
+    text-transform: uppercase;
+    font-size: 17px;
+    color:  #07183c;
+    margin-top: 20px;
+    margin-bottom: 20px;
+   
+}
+.box
+{
+    position: relative;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutSkills .box .percent
+{
+    position: relative;
+    width: 100%;
+    height: 15px;
+    background: #d8d6d6c4;
+}
+
+.aboutSkills .box .percent div
+
+{
+    top: 0;
+    position: absolute;
+    height: 100%;
+    left: 0;
+    background: #1d366d;
+}
+.aboutInterest ul
+{
+    display: grid;
+    grid-template-columns: repeat(4, 3fr);
+    
+
+}
+
+.aboutInterest ul li
+{
+    list-style: none;
+    color: #07183c;
+    font-weight: 300;
+    margin: 20px 0;
+    
+    
+}
+
+.aboutInterest ul li .fa
+{
+    color: #1d366d;
+    font-size: 15px;
+    width: 20px;
+    justify-content: center;
+}
+
+
+.navegador
+{
+    position:fixed ;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: #111;
+    transition: 0.2s;
+    display: flex;
+
+}
+.navegador .navArea
+{
+    position: relative;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+
+}
+
+.navegador .navArea ul li
+{
+    list-style: none;
+}
+
+.navegador .navArea ul li::before
+{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(0, 0, 0);
+    z-index: -1;
+    opacity: 0;
+    transition: 0.5s;
+}
+.navegador .navArea ul li:nth-child(1):before
+{
+    background: #5dacbd;
+}
+.navegador .navArea ul li:nth-child(2):before
+{
+    background: #e0ebeb;
+}
+.navegador .navArea ul li:nth-child(3):before
+{
+    background: #24527a;
+}
+.navegador .navArea ul li:hover::before
+{
+    opacity: 1;
+}
+.navegador .navArea ul li a
+{
+    font-size: 3em;
+    font-weight: 600;
+    text-decoration:none ;
+    color: #fff;
+}
+
+.navegador .navArea ul li:hover a
+{
+    color:rgb(89, 89, 89) ;
+}
+
+.imgArea
+{
+    position: relative;
+    width: 50%;
+    height: 100vh;
+    background: #f00;
+}
+
+.imgArea img
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+@media (max-width: 768px)
+{
+    .navegador .navArea{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 10;
+
+    }
+
+    .imgArea{
+        position: absolute;
+        width: 100%;
+        height: 100vh;
+        background: #f00;
+    }
+}
+@media (max-width:1000px)
+{
+    .container
+    {
+        margin: 10px;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .aboutInterest ul
+    {
+        grid-template-columns: 2,1fr;
+    }
+}  
+
+@media (max-width: 600px)
+{
+ .about .box
+ {
+    flex-direction: column;
+ }
+ .aboutInterest ul
+    {
+        grid-template-columns: 1,1fr;
+    }
+}
